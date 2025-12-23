@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: cicd-demo
-          image: sagarpatil98/cicd-demo:latest
+          image: sagarpatil98/cicd-demo:8
           ports:
             - containerPort: 80
-
