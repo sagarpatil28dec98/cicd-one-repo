@@ -28,6 +28,7 @@ jobs:
       - name: Build and Push Docker Image (latest + version)
         run: |
           docker build \
+            --build-arg CACHEBUST=$(date +%s) \
             -t $IMAGE_NAME:latest \
             -t $IMAGE_NAME:${{ github.run_number }} \
             ./app
