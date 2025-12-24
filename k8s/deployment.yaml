@@ -14,8 +14,10 @@ spec:
       labels:
         app: cicd-demo
     spec:
+      imagePullSecrets:
+        - name: dockerhub-secret   # 👈 THIS IS THE FIX
       containers:
         - name: cicd-demo
-          image: sagarpatil98/cicd-demo:IMAGE_TAG
+          image: sagarpatil98/cicd-demo:6
           ports:
             - containerPort: 80
