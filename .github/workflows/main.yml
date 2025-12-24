@@ -33,7 +33,7 @@ jobs:
 
       - name: Update Kubernetes Manifest
         run: |
-          sed -i "s|IMAGE_NAME|$IMAGE_NAME:${{ github.run_number }}|" k8s/deployment.yaml
+          sed -i "s|IMAGE_NAME:IMAGE_TAG|$IMAGE_NAME:${{ github.run_number }}|g" k8s/deployment.yaml
 
       - name: Commit and Push Manifest
         run: |
