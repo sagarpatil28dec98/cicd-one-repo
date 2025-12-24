@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: cicd-demo
-          image: IMAGE_NAME:IMAGE_TAG
+          image: sagarpatil98/cicd-demo:23
           imagePullPolicy: IfNotPresent
           # image: sagarpatil98/cicd-demo:latest
           # imagePullPolicy: Always
