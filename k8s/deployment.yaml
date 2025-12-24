@@ -40,8 +40,8 @@ spec:
       containers:
         - name: cicd-demo
           image: sagarpatil98/cicd-demo:IMAGE_TAG
-          imagePullPolicy: IfNotPresent
+          # imagePullPolicy: IfNotPresent
           # image: sagarpatil98/cicd-demo:latest
-          # imagePullPolicy: Always
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
