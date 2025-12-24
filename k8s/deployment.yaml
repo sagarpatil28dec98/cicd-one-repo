@@ -18,6 +18,6 @@ spec:
         - name: dockerhub-secret   # 👈 THIS IS THE FIX
       containers:
         - name: cicd-demo
-          image: sagarpatil98/cicd-demo:6
+          image: sagarpatil98/cicd-demo:IMAGE_TAG
           ports:
             - containerPort: 80
