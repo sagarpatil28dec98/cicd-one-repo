@@ -18,6 +18,6 @@ spec:
         - name: dockerhub-secret 
       containers:
         - name: cicd-demo
-          image: sagarpatil98/cicd-demo:8
+          image: sagarpatil98/cicd-demo:6
           ports:
             - containerPort: 80
