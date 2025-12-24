@@ -14,8 +14,6 @@ spec:
       labels:
         app: cicd-demo
     spec:
-      imagePullSecrets:
-        - name: dockerhub-secret 
       containers:
         - name: cicd-demo
           image: sagarpatil98/cicd-demo:IMAGE_TAG
