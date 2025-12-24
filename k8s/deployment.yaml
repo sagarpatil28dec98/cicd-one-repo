@@ -1,9 +1,32 @@
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: cicd-demo-app
+#   labels:
+#     app: cicd-demo
+# spec:
+#   replicas: 2
+#   selector:
+#     matchLabels:
+#       app: cicd-demo
+#   template:
+#     metadata:
+#       labels:
+#         app: cicd-demo
+#     spec:
+#       imagePullSecrets:
+#         - name: dockerhub-secret   # 👈 THIS IS THE FIX
+#       containers:
+#         - name: cicd-demo
+#           image: sagarpatil98/cicd-demo:IMAGE_TAG
+#           ports:
+#             - containerPort: 80
+
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cicd-demo-app
-  labels:
-    app: cicd-demo
 spec:
   replicas: 2
   selector:
@@ -14,10 +37,8 @@ spec:
       labels:
         app: cicd-demo
     spec:
-      imagePullSecrets:
-        - name: dockerhub-secret   # 👈 THIS IS THE FIX
       containers:
         - name: cicd-demo
-          image: sagarpatil98/cicd-demo:IMAGE_TAG
+          image: IMAGE_NAME
           ports:
             - containerPort: 80
