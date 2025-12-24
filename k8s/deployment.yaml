@@ -40,5 +40,6 @@ spec:
       containers:
         - name: cicd-demo
           image: sagarpatil98/cicd-demo:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
