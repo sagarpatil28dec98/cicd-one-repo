@@ -18,7 +18,7 @@
 #         - name: dockerhub-secret   # 👈 THIS IS THE FIX
 #       containers:
 #         - name: cicd-demo
-#           image: sagarpatil98/cicd-demo:39
+#           image: sagarpatil98/cicd-demo:40
 #           ports:
 #             - containerPort: 80
 
@@ -39,10 +39,10 @@ spec:
     spec:
       containers:
         - name: cicd-demo
-          # image: sagarpatil98/cicd-demo:39
+          # image: sagarpatil98/cicd-demo:40
           # imagePullPolicy: IfNotPresent
-          # image: sagarpatil98/cicd-demo:39
-          image: sagarpatil98/cicd-demo:39
+          # image: sagarpatil98/cicd-demo:40
+          image: sagarpatil98/cicd-demo:40
           imagePullPolicy: Always
           ports:
             - containerPort: 80
