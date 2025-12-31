@@ -25,10 +25,9 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and Push Docker Image (latest + version)
+      - name: Build and Push Docker Image
         run: |
           docker build \
-            --build-arg CACHEBUST=$(date +%s) \
             -t $IMAGE_NAME:latest \
             -t $IMAGE_NAME:${{ github.run_number }} \
             ./app
@@ -36,16 +35,14 @@ jobs:
           docker push $IMAGE_NAME:latest
           docker push $IMAGE_NAME:${{ github.run_number }}
 
-   
-      - name: Update Kubernetes Manifest
+      - name: Update Helm image tag
         run: |
-          sed -i "s|image: .*|image: $IMAGE_NAME:${{ github.run_number }}|g" k8s/deployment.yaml
+          sed -i "s|tag:.*|tag: \"${{ github.run_number }}\"|g" cicd-demo/values.yaml
 
-
-      - name: Commit and Push Manifest
+      - name: Commit and Push Helm values
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add k8s/deployment.yaml
-          git commit -m "ci: update image to $IMAGE_NAME:${{ github.run_number }}" || echo "No changes to commit"
+          git add cicd-demo/values.yaml
+          git commit -m "ci: update image tag to ${{ github.run_number }}" || echo "No changes to commit"
           git push origin devops
