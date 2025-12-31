@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/sagarpatil28dec98/cicd-one-repo.git
     targetRevision: devops
-    path: k8s
+    path: cicd-demo
 
   destination:
     server: https://kubernetes.default.svc
