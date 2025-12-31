@@ -10,6 +10,9 @@ spec:
     repoURL: https://github.com/sagarpatil28dec98/cicd-one-repo.git
     targetRevision: devops
     path: cicd-demo
+    helm:
+      valueFiles:
+        - values.yaml
 
   destination:
     server: https://kubernetes.default.svc
