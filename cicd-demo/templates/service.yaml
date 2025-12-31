@@ -1,13 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: cicd-demo-service
+  name: {{ .Release.Name }}-service
 spec:
   selector:
-    app: cicd-demo
+    app: {{ .Release.Name }}
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 80
-  type: NodePort
-
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}
+  type: {{ .Values.service.type }}

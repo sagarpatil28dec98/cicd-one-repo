@@ -26,23 +26,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cicd-demo-app
+  name: {{ .Release.Name }}-app
 spec:
-  replicas: 2
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: cicd-demo
+      app: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: cicd-demo
+        app: {{ .Release.Name }}
     spec:
       containers:
-        - name: cicd-demo
-          # image: sagarpatil98/cicd-demo:59
-          # imagePullPolicy: IfNotPresent
-          # image: sagarpatil98/cicd-demo:59
-          image: sagarpatil98/cicd-demo:59
-          imagePullPolicy: Always
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
-            - containerPort: 80
+            - containerPort: {{ .Values.containerPort }}

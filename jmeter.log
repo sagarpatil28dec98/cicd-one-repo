@@ -1,0 +1,155 @@
+2025-12-31 12:25:19,275 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-12-31 12:25:19,327 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2025-12-31 12:25:19,328 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: Version 5.6.3
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: java.version=21.0.9
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: os.arch=aarch64
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: os.version=15.0
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: java.awt.headless=true
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-12-31 12:25:19,347 INFO o.a.j.JMeter: Available Processors =8
+2025-12-31 12:25:19,378 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-12-31 12:25:19,378 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-12-31 12:25:19,378 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2025-12-31 12:25:19,378 INFO o.a.j.JMeter: user.dir  =/Users/sagarpatil/cicd-one-repo
+2025-12-31 12:25:19,378 INFO o.a.j.JMeter: PWD       =/Users/sagarpatil/cicd-one-repo
+2025-12-31 12:25:19,394 INFO o.a.j.JMeter: IP: 192.168.1.4 Name: Mac.bbrouter FullName: mac.bbrouter
+2025-12-31 12:25:19,407 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/sagarpatil/cicd-one-repo/jmeter/report'
+2025-12-31 12:25:19,409 INFO o.a.j.s.FileServer: Default base='/Users/sagarpatil/cicd-one-repo'
+2025-12-31 12:25:19,410 INFO o.a.j.s.FileServer: Set new base='/Users/sagarpatil/cicd-one-repo/jmeter'
+2025-12-31 12:25:19,641 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-12-31 12:25:19,666 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-12-31 12:25:19,668 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-12-31 12:25:19,669 INFO o.a.j.s.SaveService: Loading file: jmeter/test.jmx
+2025-12-31 12:25:19,705 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-31 12:25:19,705 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-31 12:25:19,705 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-31 12:25:19,705 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-31 12:25:19,705 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-12-31 12:25:19,705 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-31 12:25:19,718 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-12-31 12:25:19,720 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-12-31 12:25:19,721 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: jmeter/result.jtl
+2025-12-31 12:25:19,721 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/reportgenerator.properties
+2025-12-31 12:25:19,721 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-12-31 12:25:19,723 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-12-31 12:25:19,723 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-12-31 12:25:19,723 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-12-31 12:25:19,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-12-31 12:25:19,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-12-31 12:25:19,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-12-31 12:25:19,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-12-31 12:25:19,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-12-31 12:25:19,724 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-31 12:25:19,726 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+202025-12-31 12:26:32,332 INFO o.a.j.r.Summariser: summary +     21 in 00:02:30 =    0.1/s Avg: 75019 Min: 75005 Max: 75190 Err:    21 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 12:29:02,369 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75006 Min: 75003 Max: 75015 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 12:29:02,370 INFO o.a.j.r.Summariser: summary =     61 in 00:05:01 =    0.2/s Avg: 75011 Min: 75003 Max: 75190 Err:    61 (100.00%)
+2025-12-31 12:31:32,408 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75006 Min: 75003 Max: 75015 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 12:31:32,412 INFO o.a.j.r.Summariser: summary =    101 in 00:07:31 =    0.2/s Avg: 75009 Min: 75003 Max: 75190 Err:   101 (100.00%)
+2025-12-31 13:39:30,923 INFO o.a.j.r.Summariser: summary +     61 in 01:07:59 =    0.0/s Avg: 31638 Min:  5005 Max: 75009 Err:    61 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 13:39:30,924 INFO o.a.j.r.Summariser: summary =    162 in 01:15:29 =    0.0/s Avg: 58678 Min:  5005 Max: 75190 Err:   162 (100.00%)
+2025-12-31 14:17:01,150 INFO o.a.j.r.Summariser: summary +     45 in 00:37:30 =    0.0/s Avg: 15916 Min:  5010 Max: 75012 Err:    45 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:17:01,151 INFO o.a.j.r.Summariser: summary =    207 in 01:52:59 =    0.0/s Avg: 49382 Min:  5005 Max: 75190 Err:   207 (100.00%)
+2025-12-31 14:19:31,169 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75007 Min: 75002 Max: 75023 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:19:31,170 INFO o.a.j.r.Summariser: summary =    247 in 01:55:29 =    0.0/s Avg: 53531 Min:  5005 Max: 75190 Err:   247 (100.00%)
+2025-12-31 14:22:01,184 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75008 Min: 75001 Max: 75018 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:22:01,186 INFO o.a.j.r.Summariser: summary =    287 in 01:57:59 =    0.0/s Avg: 56525 Min:  5005 Max: 75190 Err:   287 (100.00%)
+2025-12-31 14:24:31,202 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75007 Min: 75002 Max: 75036 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:24:31,203 INFO o.a.j.r.Summariser: summary =    327 in 02:00:29 =    0.0/s Avg: 58786 Min:  5005 Max: 75190 Err:   327 (100.00%)
+2025-12-31 14:27:01,225 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75008 Min: 75001 Max: 75022 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:27:01,226 INFO o.a.j.r.Summariser: summary =    367 in 02:02:59 =    0.0/s Avg: 60554 Min:  5005 Max: 75190 Err:   367 (100.00%)
+2025-12-31 14:29:31,246 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75009 Min: 75004 Max: 75025 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:29:31,247 INFO o.a.j.r.Summariser: summary =    407 in 02:05:29 =    0.1/s Avg: 61974 Min:  5005 Max: 75190 Err:   407 (100.00%)
+2025-12-31 14:32:01,273 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75010 Min: 75004 Max: 75027 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:32:01,275 INFO o.a.j.r.Summariser: summary =    447 in 02:07:59 =    0.1/s Avg: 63141 Min:  5005 Max: 75190 Err:   447 (100.00%)
+2025-12-31 14:34:31,299 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75006 Min: 75002 Max: 75031 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:34:31,300 INFO o.a.j.r.Summariser: summary =    487 in 02:10:29 =    0.1/s Avg: 64115 Min:  5005 Max: 75190 Err:   487 (100.00%)
+2025-12-31 14:37:01,326 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75009 Min: 75004 Max: 75025 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:37:01,339 INFO o.a.j.r.Summariser: summary =    527 in 02:12:59 =    0.1/s Avg: 64942 Min:  5005 Max: 75190 Err:   527 (100.00%)
+2025-12-31 14:39:31,380 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75012 Min: 75003 Max: 75058 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:39:31,383 INFO o.a.j.r.Summariser: summary =    567 in 02:15:30 =    0.1/s Avg: 65653 Min:  5005 Max: 75190 Err:   567 (100.00%)
+2025-12-31 14:42:01,505 INFO o.a.j.r.Summariser: summary +   1102 in 00:02:30 =    7.3/s Avg:  2460 Min:     1 Max: 75028 Err:  1102 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:42:01,507 INFO o.a.j.r.Summariser: summary =   1669 in 02:18:00 =    0.2/s Avg: 23928 Min:     1 Max: 75190 Err:  1669 (100.00%)
+2025-12-31 14:43:30,002 INFO o.a.j.r.Summariser: summary +  11460 in 00:01:29 =  129.5/s Avg:   276 Min:     1 Max: 75046 Err: 11460 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:43:30,004 INFO o.a.j.r.Summariser: summary =  13129 in 02:19:28 =    1.6/s Avg:  3282 Min:     1 Max: 75190 Err: 13129 (100.00%)
+2025-12-31 14:46:01,984 INFO o.a.j.r.Summariser: summary +   1693 in 00:02:32 =   11.1/s Avg:   953 Min:     2 Max: 75024 Err:  1693 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:46:01,991 INFO o.a.j.r.Summariser: summary =  14822 in 02:22:00 =    1.7/s Avg:  3016 Min:     1 Max: 75190 Err: 14822 (100.00%)
+2025-12-31 14:48:32,118 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75060 Min: 75031 Max: 75086 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:48:32,120 INFO o.a.j.r.Summariser: summary =  14862 in 02:24:30 =    1.7/s Avg:  3210 Min:     1 Max: 75190 Err: 14862 (100.00%)
+2025-12-31 14:51:02,161 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75034 Min: 75006 Max: 75057 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:51:02,164 INFO o.a.j.r.Summariser: summary =  14902 in 02:27:00 =    1.7/s Avg:  3403 Min:     1 Max: 75190 Err: 14902 (100.00%)
+2025-12-31 14:53:32,211 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75023 Min: 75005 Max: 75045 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:53:32,214 INFO o.a.j.r.Summariser: summary =  14942 in 02:29:30 =    1.7/s Avg:  3595 Min:     1 Max: 75190 Err: 14942 (100.00%)
+2025-12-31 14:56:02,276 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75030 Min: 75010 Max: 75052 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:56:02,283 INFO o.a.j.r.Summariser: summary =  14982 in 02:32:00 =    1.6/s Avg:  3786 Min:     1 Max: 75190 Err: 14982 (100.00%)
+2025-12-31 14:58:32,329 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75024 Min: 75009 Max: 75036 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 14:58:32,333 INFO o.a.j.r.Summariser: summary =  15022 in 02:34:30 =    1.6/s Avg:  3975 Min:     1 Max: 75190 Err: 15022 (100.00%)
+2025-12-31 15:17:04,241 INFO o.a.j.r.Summariser: summary +     20 in 00:18:32 =    0.0/s Avg: 74627 Min: 67038 Max: 75035 Err:    20 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:17:04,246 INFO o.a.j.r.Summariser: summary =  15042 in 02:53:02 =    1.4/s Avg:  4069 Min:     1 Max: 75190 Err: 15042 (100.00%)
+2025-12-31 15:19:34,295 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 71240 Min: 67039 Max: 75032 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:19:34,299 INFO o.a.j.r.Summariser: summary =  15082 in 02:55:32 =    1.4/s Avg:  4247 Min:     1 Max: 75190 Err: 15082 (100.00%)
+2025-12-31 15:24:30,349 INFO o.a.j.r.Summariser: summary +     20 in 00:04:56 =    0.1/s Avg: 75026 Min: 75014 Max: 75035 Err:    20 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:24:30,350 INFO o.a.j.r.Summariser: summary =  15102 in 03:00:28 =    1.4/s Avg:  4341 Min:     1 Max: 75190 Err: 15102 (100.00%)
+2025-12-31 15:27:00,383 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75018 Min: 75004 Max: 75036 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:27:00,389 INFO o.a.j.r.Summariser: summary =  15142 in 03:02:59 =    1.4/s Avg:  4528 Min:     1 Max: 75190 Err: 15142 (100.00%)
+2025-12-31 15:29:30,410 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75015 Min: 75006 Max: 75027 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:29:30,411 INFO o.a.j.r.Summariser: summary =  15182 in 03:05:29 =    1.4/s Avg:  4713 Min:     1 Max: 75190 Err: 15182 (100.00%)
+2025-12-31 15:32:00,494 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75013 Min: 75003 Max: 75050 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:32:00,496 INFO o.a.j.r.Summariser: summary =  15222 in 03:07:59 =    1.3/s Avg:  4898 Min:     1 Max: 75190 Err: 15222 (100.00%)
+2025-12-31 15:34:30,560 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75046 Min: 75020 Max: 75075 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:34:30,561 INFO o.a.j.r.Summariser: summary =  15262 in 03:10:29 =    1.3/s Avg:  5082 Min:     1 Max: 75190 Err: 15262 (100.00%)
+2025-12-31 15:37:00,604 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75025 Min: 75004 Max: 75047 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:37:00,607 INFO o.a.j.r.Summariser: summary =  15302 in 03:12:59 =    1.3/s Avg:  5265 Min:     1 Max: 75190 Err: 15302 (100.00%)
+2025-12-31 15:39:30,702 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75034 Min: 75004 Max: 75059 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:39:30,704 INFO o.a.j.r.Summariser: summary =  15342 in 03:15:29 =    1.3/s Avg:  5447 Min:     1 Max: 75190 Err: 15342 (100.00%)
+2025-12-31 15:42:00,809 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75048 Min: 75030 Max: 75067 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:42:00,812 INFO o.a.j.r.Summariser: summary =  15382 in 03:17:59 =    1.3/s Avg:  5628 Min:     1 Max: 75190 Err: 15382 (100.00%)
+2025-12-31 15:42:03,286 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2025-12-31 15:42:03,326 INFO o.a.j.r.ResultCollector: Shutdown hook ended
++    100 in 00:02:30 =    0.7/s Avg: 75017 Min: 75003 Max: 75041 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 14:58:32,292 INFO o.a.j.r.Summariser: summary =  44621 in 02:45:34 =    4.5/s Avg:  4087 Min:     1 Max: 75131 Err: 44621 (100.00%)
+2025-12-31 15:17:04,188 INFO o.a.j.r.Summariser: summary +     50 in 00:18:32 =    0.0/s Avg: 74874 Min: 67033 Max: 75047 Err:    50 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:17:04,190 INFO o.a.j.r.Summariser: summary =  44671 in 03:04:06 =    4.0/s Avg:  4166 Min:     1 Max: 75131 Err: 44671 (100.00%)
+2025-12-31 15:19:34,227 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 71126 Min: 67039 Max: 75037 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:19:34,228 INFO o.a.j.r.Summariser: summary =  44771 in 03:06:36 =    4.0/s Avg:  4316 Min:     1 Max: 75131 Err: 44771 (100.00%)
+2025-12-31 15:24:30,293 INFO o.a.j.r.Summariser: summary +     50 in 00:04:56 =    0.2/s Avg: 75016 Min: 75003 Max: 75035 Err:    50 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:24:30,296 INFO o.a.j.r.Summariser: summary =  44821 in 03:11:32 =    3.9/s Avg:  4394 Min:     1 Max: 75131 Err: 44821 (100.00%)
+2025-12-31 15:27:00,341 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75015 Min: 75004 Max: 75034 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:27:00,342 INFO o.a.j.r.Summariser: summary =  44921 in 03:14:02 =    3.9/s Avg:  4552 Min:     1 Max: 75131 Err: 44921 (100.00%)
+2025-12-31 15:29:30,368 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75017 Min: 75003 Max: 75032 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:29:30,372 INFO o.a.j.r.Summariser: summary =  45021 in 03:16:32 =    3.8/s Avg:  4708 Min:     1 Max: 75131 Err: 45021 (100.00%)
+2025-12-31 15:32:00,453 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75021 Min: 75001 Max: 75054 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:32:00,455 INFO o.a.j.r.Summariser: summary =  45121 in 03:19:02 =    3.8/s Avg:  4864 Min:     1 Max: 75131 Err: 45121 (100.00%)
+2025-12-31 15:34:30,491 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75047 Min: 75010 Max: 75079 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:34:30,495 INFO o.a.j.r.Summariser: summary =  45221 in 03:21:32 =    3.7/s Avg:  5019 Min:     1 Max: 75131 Err: 45221 (100.00%)
+2025-12-31 15:37:00,573 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75016 Min: 75002 Max: 75045 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:37:00,577 INFO o.a.j.r.Summariser: summary =  45321 in 03:24:03 =    3.7/s Avg:  5174 Min:     1 Max: 75131 Err: 45321 (100.00%)
+2025-12-31 15:39:30,701 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75034 Min: 75004 Max: 75082 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:39:30,704 INFO o.a.j.r.Summariser: summary =  45421 in 03:26:33 =    3.7/s Avg:  5327 Min:     1 Max: 75131 Err: 45421 (100.00%)
+2025-12-31 15:42:00,771 INFO o.a.j.r.Summariser: summary +    100 in 00:02:30 =    0.7/s Avg: 75057 Min: 75023 Max: 75079 Err:   100 (100.00%) Active: 50 Started: 50 Finished: 0
+2025-12-31 15:42:00,776 INFO o.a.j.r.Summariser: summary =  45521 in 03:29:03 =    3.6/s Avg:  5481 Min:     1 Max: 75131 Err: 45521 (100.00%)
+2025-12-31 15:42:03,282 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2025-12-31 15:42:03,327 INFO o.a.j.r.ResultCollector: Shutdown hook ended
+3:06:41 =    1.6/s Avg:  4112 Min:     1 Max: 75090 Err: 17752 (100.00%)
+2025-12-31 15:34:30,557 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75040 Min: 75013 Max: 75069 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:34:30,559 INFO o.a.j.r.Summariser: summary =  17792 in 03:09:11 =    1.6/s Avg:  4272 Min:     1 Max: 75090 Err: 17792 (100.00%)
+2025-12-31 15:37:00,600 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75020 Min: 75003 Max: 75043 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:37:00,602 INFO o.a.j.r.Summariser: summary =  17832 in 03:11:41 =    1.6/s Avg:  4430 Min:     1 Max: 75090 Err: 17832 (100.00%)
+2025-12-31 15:39:30,702 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75031 Min: 75006 Max: 75055 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:39:30,704 INFO o.a.j.r.Summariser: summary =  17872 in 03:14:11 =    1.5/s Avg:  4588 Min:     1 Max: 75090 Err: 17872 (100.00%)
+2025-12-31 15:42:00,775 INFO o.a.j.r.Summariser: summary +     40 in 00:02:30 =    0.3/s Avg: 75048 Min: 75017 Max: 75070 Err:    40 (100.00%) Active: 20 Started: 20 Finished: 0
+2025-12-31 15:42:00,777 INFO o.a.j.r.Summariser: summary =  17912 in 03:16:41 =    1.5/s Avg:  4746 Min:     1 Max: 75090 Err: 17912 (100.00%)
+2025-12-31 15:42:03,294 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2025-12-31 15:42:03,328 INFO o.a.j.r.ResultCollector: Shutdown hook ended
