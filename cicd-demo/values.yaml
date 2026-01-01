@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: sagarpatil98/cicd-demo
-  tag: "67"
+  tag: "68"
   pullPolicy: Always
 
 containerPort: 80
